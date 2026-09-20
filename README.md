@@ -10,7 +10,7 @@ A lightning-fast, lightweight, and completely free desktop client for **Proton M
 - 🎨 **Modern Top Bar:** Sleek, minimalist UI designed for smooth navigation and better screen real estate.
 - 💰 **100% Free:** No paywalls or subscriptions required to use desktop functionality.
 - 🔒 **Privacy-First:** Standard Proton Mail security and end-to-end encryption untouched.
-- 💻 **Cross-Platform:** Works seamlessly on Windows, macOS, and Linux.
+- 💻 **Cross-Platform:** Works seamlessly on Windows
 
 ---
 
