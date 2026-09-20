@@ -1,27 +1,51 @@
-# Proton Mail Desktop (lightweight Electron wrapper)
+# ⚡ Proton Mail Modern Client
 
-- Frameless window with a slim carbon-themed top bar: **minimize · fullscreen · exit**
-  (drag the bar to move the window, double-click to maximize, `F11` toggles fullscreen)
-- Modern slim scrollbar injected into Proton Mail (and its iframes)
-- Your icon (`build/icon.ico`, `build/icon.png`, `assets/icon.png`)
-- No runtime dependencies, no menu bar, single instance, remembers window size
-- External links open in your default browser; `proton.me` / `proton.ch` stay in-app
-- Extra shortcuts: `Ctrl+R` reload, `Ctrl+Shift+R` hard reload, `Ctrl +/-/0` zoom
+A lightning-fast, lightweight, and completely free desktop client for **Proton Mail**, built with **Electron**. Designed with a modern, clean top bar and optimized for performance.
 
-## Run
-    npm install
-    npm start
+---
 
-## Build the installer
-    npm run dist:win     # Windows NSIS installer  -> dist/ProtonMail-Setup-1.0.0.exe
-    npm run dist:linux   # AppImage + .deb
-    npm run dist:mac     # .dmg (must be run on macOS)
+## ✨ Features
 
-Windows installers should be built on Windows (or Linux with Wine). Alternatively push to GitHub and run the
-**Build installers** workflow (`.github/workflows/build.yml`) to get all three from CI.
+- 🚀 **Blazing Fast & Lightweight:** Significantly lighter on CPU and RAM compared to the official desktop client.
+- 🎨 **Modern Top Bar:** Sleek, minimalist UI designed for smooth navigation and better screen real estate.
+- 💰 **100% Free:** No paywalls or subscriptions required to use desktop functionality.
+- 🔒 **Privacy-First:** Standard Proton Mail security and end-to-end encryption untouched.
+- 💻 **Cross-Platform:** Works seamlessly on Windows, macOS, and Linux.
 
-## Configure
-- Start URL: edit `START_URL` in `main.js` (currently `https://mail.proton.me`)
-  or set the `PROTON_URL` environment variable.
-- Colors: `--bg` etc. in `renderer/topbar.html`; scrollbar look in `content-preload.js`.
-- Bar height: `TOPBAR_HEIGHT` in `main.js` and `--bar-h` in `renderer/topbar.html` (keep them equal).
+---
+
+## 🛠️ Built With
+
+- **Electron** – Desktop app framework
+- **HTML5 / CSS3 / JavaScript** – Modern UI design & custom top bar
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+
+### Installation & Running Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/proton-mail-modern-client.git](https://github.com/your-username/proton-mail-modern-client.git)
+   cd proton-mail-modern-client
+
+
+2. **Install dependencies:**
+
+npm install
+
+
+3. **Run the application:**
+
+4. npm start
+
+⚠️ Disclaimer
+This is an unofficial, community-driven open-source project. It is not affiliated with, endorsed by, or maintained by Proton AG. All Proton Mail trademarks belong to Proton AG.
+
+📜 License
+Distributed under the MIT License.
